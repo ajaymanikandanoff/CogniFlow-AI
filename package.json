@@ -1,0 +1,23 @@
+{
+  "name": "ai-personalized-learning-and-revision-coach",
+  "version": "1.0.0",
+  "description": "An AI coach that continuously adapts a student's study plan based on exam deadlines, topic difficulty, weak areas, available time, and actual learning performance.",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "dev": "node server/src/server.js"
+  },
+  "keywords": [
+    "ai",
+    "adaptive-learning",
+    "spaced-repetition",
+    "study-planner",
+    "revision-coach",
+    "gemini",
+    "hackathon"
+  ],
+  "author": "Hackathon Engineer",
+  "license": "MIT"
+}
